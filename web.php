@@ -35,7 +35,10 @@ echo "เนื้อเพลง : " .$DATA_MUSIC;
 echo "<hr>";
 $CUT_DATA = $CUTSTRING->processText($DATA_MUSIC);
 echo "<hr>";
-echo $CUT_DATA;
-
-
+echo $CUT_DATA ;
+echo "<hr>";
+$MUSIC_STRING =   json_decode($CUT_DATA);
+echo "<pre>";
+print_r($MUSIC_STRING);
+echo count($MUSIC_STRING);
  ?>

@@ -13,8 +13,8 @@ class Music
             # code...
             $time_start = microtime(true);
             $text_to_segment = trim($DATA_MUSIC);
-            echo $text_to_segment;
-            echo '<hr/>';
+            // echo $text_to_segment;
+            // echo '<hr/>';
             //echo '<b>ประโยคที่ต้องการตัดคือ: </b>' . $text_to_segment . '<br/>';
             $segment = new Segment();
             //echo '<hr/>';
