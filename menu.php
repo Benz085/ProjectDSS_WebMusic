@@ -38,7 +38,7 @@
                                     <a href="data.php">ข้อมูลเพลงทั้งหมด</a>
                                 </li>
                                 <li>
-                                    <a href="#">สรุปข้อมูล</a>
+                                    <a href="sum.php">สรุปข้อมูล</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->

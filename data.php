@@ -102,7 +102,7 @@ $data1 = $stmt1->fetch(PDO::FETCH_ASSOC);
                                                 <td><?php echo $value['mouth'] ?> / <?php echo $value['Music_year'] ?></td>
                                                 <td><?php
                                                 if ($value['isActive'] == 0 ){
-                                                    echo '<a href="cut.php?ID_cut='.$value['Music_id'].'" class="btn btn-warning btn-xs">ยังไม่คำนวณ</a>';
+                                                    echo '<a href="cut.php?ID_cut='.$value['Music_id'].'" class="btn btn-warning btn-xs" target="_blank" >ยังไม่คำนวณ</a>';
                                                 }else if ($value['isActive'] == 1) {
                                                     echo '<a href="cut.php?ID_cut='.$value['Music_id'].'" class="btn btn-success btn-xs">คำนวณ</a>';
                                                 }
